@@ -1,0 +1,114 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Caroline Su — research, journalism, and music.">
+  <title>Home | Caroline Su</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<header class="site-header">
+  <nav class="nav" aria-label="Main navigation">
+    <a class="brand" href="index.html" aria-current="page">Caroline Su</a>
+    <button class="nav-toggle" aria-expanded="false" aria-controls="nav-links">Menu</button>
+    <ul class="nav-links" id="nav-links">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="podcast.html">Podcast Series</a></li>
+      <li><a href="labor-economics.html">Labor Economics</a></li>
+      <li><a href="second-order.html">Second Order</a></li>
+      <li><a href="music-therapy.html">Music Therapy</a></li>
+      <li><a href="recordings.html">Music Recordings</a></li>
+    </ul>
+  </nav>
+</header>
+
+<main>
+
+<section class="hero">
+  <h1>Hi, I’m Caroline!</h1>
+  <p class="lede">I’m a high school student interested in economics research, policy, journalism, advocacy, music, and philosophy. Feel free to reach out at caroline.jia.su (at) gmail (dot) com.</p>
+</section>
+<section class="section research-section">
+  <h2>Research projects</h2>
+    <div class="research-columns">
+
+  <!-- LEFT COLUMN -->
+  <div class="research-column">
+
+    <article class="card">
+
+      <h3>
+        <a href="second-order.html">
+          Second Order: AI and the Future of the Workforce
+        </a>
+      </h3>
+
+      <p>
+        A survey, data report, and interview series examining how AI
+        may reshape work and education.
+      </p>
+
+      <div class="project-subsection">
+
+        <h4>
+          <a href="podcast.html">Podcast Series</a>
+        </h4>
+
+        <p>
+          Conversations with professionals about AI, changing job roles,
+          and uniquely human skills.
+        </p>
+      </div>
+    </article>
+
+  </div>
+
+
+  <!-- RIGHT COLUMN -->
+  <div class="research-column">
+
+    <article class="card">
+
+      <h3>
+        <a href="labor-economics.html">
+          High-Skill Immigration and Regional Productivity
+        </a>
+      </h3>
+
+      <p>
+        Research on the economic effects of the 2017 Buy American,
+        Hire American policy.
+      </p>
+    </article>
+
+
+    <article class="card">
+
+      <h3>
+        <a href="music-therapy.html">
+          Annotated Music Knowledge Base
+        </a>
+      </h3>
+
+      <p>
+        A tool designed to help music therapists identify suitable
+        listening material more efficiently.
+      </p>
+    </article>
+
+  </div>
+
+</div>
+</section>
+<section class="section grid grid-3 home-links-section">
+  <article class="card"><h3><a class="stretched" href="recordings.html">Music Recordings</a></h3><p>Some of my better performances and studio recordings.</p></article>
+  <article class="card"><h3><a class="stretched" href="https://hopefulmindsoutreach.org">Hopeful Minds Outreach</a></h3><p>Teen mental-health initiative using music and the arts to serve vulnerable groups.</p></article>
+    <article class="card"><h3>Blog</h3><p>Read some of my writing on topics like policy, AI, economics - coming soon!</p></article>
+</section>
+</main>
+<footer><div class="footer-inner">© <span id="year"></span> Caroline Su</div></footer>
+<script src="script.js"></script>
+<script>document.getElementById('year').textContent = new Date().getFullYear();</script>
+</body>
+</html>

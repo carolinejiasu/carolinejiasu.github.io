@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Caroline Su — research, journalism, and music.">
+  <title>Blog | Caroline Su</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<header class="site-header">
+  <nav class="nav" aria-label="Main navigation">
+    <a class="brand" href="index.html">Caroline Su</a>
+    <button class="nav-toggle" aria-expanded="false" aria-controls="nav-links">Menu</button>
+    <ul class="nav-links" id="nav-links">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="podcast.html">Podcast Series</a></li>
+      <li><a href="labor-economics.html">Labor Economics</a></li>
+      <li><a href="second-order.html">Second Order</a></li>
+      <li><a href="music-therapy.html">Music Therapy</a></li>
+      <li><a href="recordings.html">Music Recordings</a></li>
+    </ul>
+  </nav>
+</header>
+
+<main>
+
+<section class="hero"><div class="eyebrow">Selected writing</div><h1>Blog</h1><p class="lede">I write on policy, AI, music, economics, and more.</p></section>
+<section class="section two-column">
+  <aside class="filters"><h3>Filter publications</h3><strong>Publication type</strong>
+    <label><input type="checkbox" data-filter value="op-ed"> Op-Ed</label>
+    <label><input type="checkbox" data-filter value="personal-essay"> Personal Essay</label>
+    <label><input type="checkbox" data-filter value="critical-analysis"> Critical Analysis</label>
+    <label><input type="checkbox" data-filter value="journalism"> Journalism</label>
+    <br><strong>Topics</strong>
+    <label><input type="checkbox" data-filter value="economics"> Economics</label>
+    <label><input type="checkbox" data-filter value="music"> Music</label>
+    <label><input type="checkbox" data-filter value="ai"> AI</label>
+    <label><input type="checkbox" data-filter value="pop-culture"> Pop Culture</label>
+  </aside>
+  <div class="post-list">
+    <article class="post" data-type="op-ed" data-topic="ai"><div class="meta">Legal rulings · August 18, 2024</div><h2>Protect White House Interactions with Social Media Companies</h2><p>On June 24, 2024, the Supreme Court reversed an injunction restricting White House communications with social-media companies. This article argues that the reversal preserves constitutional and governmental functions.</p><a href="#">Read article →</a></article>
+    <article class="post" data-type="op-ed" data-topic="pop-culture"><div class="meta">State policy · March 26, 2026</div><h2>Scroll Away from the Social Media Ban</h2><p>A critique of Virginia’s app-level social-media time limit and its ability to address the underlying problem.</p><a href="#">Read article →</a></article>
+  </div>
+</section>
+</main>
+<footer><div class="footer-inner">© <span id="year"></span> Caroline Su</div></footer>
+<script src="script.js"></script>
+<script>document.getElementById('year').textContent = new Date().getFullYear();</script>
+</body>
+</html>
