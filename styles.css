@@ -225,3 +225,21 @@ footer { border-top: 1px solid var(--line); }
 .podcast-list .card p {
   font-size: 1.1rem;
 }
+.research-columns .card {
+  border: none;
+  padding: 0;
+  background: transparent;
+  box-shadow: none;
+}
+.research-columns .card:hover {
+  box-shadow: none;
+  transform: none;
+}
+.podcast-list .card:hover {
+  box-shadow: none;
+  transform: none;
+}
+.home-links-section .card:hover {
+  box-shadow: none;
+  transform: none;
+}
